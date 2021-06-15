@@ -1,0 +1,13 @@
+**/*.env*
+**/node_modules/
+**/build
+**/dist
+**/tests
+Dockerfile
+**/.*ignore
+**/.*.json
+**/.*rc
+**/*.md
+**/.github/
+
+!**/client-app/.env

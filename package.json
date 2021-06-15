@@ -1,0 +1,10 @@
+{
+  "private": "true",
+  "workspaces": ["client-app", "server"],
+  "scripts": {
+    "build": "yarn workspace client-app build && yarn workspace twitch-rand build",
+    "start": "node server/dist/bot.js",
+    "test": "yarn workspace twitch-rand test",
+    "test-ci": "yarn workspace twitch-rand test-ci"
+  }
+}

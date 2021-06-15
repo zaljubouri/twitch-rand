@@ -1,0 +1,32 @@
+.Waiting {
+  font-weight: bold;
+  align-self: center;
+  justify-self: center;
+}
+
+.Internal-state-info {
+  font-size: 0.75rem;
+  word-wrap: anywhere;
+}
+
+.Internal-state-counter {
+  display: flex;
+  align-items: flex-end;
+  font-size: 1rem;
+}
+
+.header {
+  color: #9147ff;
+}
+
+.reseed {
+  flex: 1 1 0;
+}
+
+.generated {
+  flex: 1 1 0;
+}
+
+.generated-header {
+  font-size: 0.75rem;
+}

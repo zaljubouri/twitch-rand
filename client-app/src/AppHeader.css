@@ -1,0 +1,59 @@
+.App-header {
+  display: flex;
+  padding: 32px 64px;
+  color: rgba(255, 255, 255, 0.87);
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.Title {
+  font-size: 4rem;
+  font-family: 'Inter', Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.Nav {
+  color: inherit;
+  text-decoration: none;
+  transition: color linear 0.25s;
+}
+
+.Nav:hover {
+  color: #9147ff;
+}
+
+.Active {
+  color: #9147ff;
+}
+
+.Navbar {
+  align-self: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  font-family: 'Inter', Helvetica, sans-serif;
+  font-size: 1.25rem;
+}
+
+@media screen and (max-width: 914px) {
+  .App-header {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 514px) {
+  .Navbar {
+    font-size: 0.875rem;
+    gap: 18px;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .Navbar {
+    font-size: 0.75rem;
+    gap: 24px;
+  }
+}

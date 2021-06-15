@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.87);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-main {
+  display: flex;
+  align-items: center;
+  flex: 1 1 0;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.App-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.Channels {
+  height: 40px;
+}
+
+.Diagram {
+  min-height: 33vh;
+  max-width: 75vw;
+  flex: 1 1 0;
+  display: flex;
+  gap: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+  .Diagram {
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .Arrow-container {
+    transform: rotate(90deg);
+    max-height: 100px;
+    max-width: 100px;
+  }
+}
+
+.Diagram-container {
+  padding: 32px;
+  border: solid 3px #9147ff;
+}
+
+.Container-header {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.Arrow-container {
+  align-self: center;
+  flex: 0.25 1 0;
+  min-height: 100px;
+  min-width: 100px;
+}
+
+.Pool-container {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  gap: 20px;
+  flex: 0.25 1 0;
+  place-items: center;
+}
+
+.Internal-state {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  text-align: left;
+  min-height: 250px;
+  min-width: 250px;
+  flex: 0.75 1 0;
+  border-color: #9147ff;
+  line-height: 1.5;
+  gap: 24px;
+}
+
+.Pool-header {
+  grid-column: 1 / -1;
+  justify-self: flex-start;
+}
+
+.Random {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  min-width: 200px;
+  flex: 0.375 1 0;
+}

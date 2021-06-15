@@ -1,0 +1,11 @@
+.Footer {
+  display: flex;
+  flex-wrap: wrap;
+  place-items: center;
+  gap: 12px;
+}
+
+.Github {
+  text-decoration: none;
+  color: white;
+}
